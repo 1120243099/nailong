@@ -1,0 +1,35 @@
+/* 1. 设置页面全局背景（奶龙图片） */
+body {
+    background-image: url(photo\2686c072a89ac6b28b7993fbe8c65ce.png); /* 背景图片路径（需替换为你的素材路径） */
+    background-size: cover; /* 背景图覆盖整个页面 */
+    background-position: center; /* 背景图居中 */
+    background-attachment: fixed; /* 背景图固定（滚动时不跟随） */
+    background-repeat: no-repeat; /* 不重复平铺 */
+}
+
+/* 2. 调整内容容器样式（避免背景掩盖文字） */
+.md-container {
+    background-color: rgba(255, 255, 255, 0.85); /* 白色半透明背景（透明度0.85可调整） */
+    border-radius: 10px; /* 容器圆角（可选，增加可爱感） */
+    padding: 2rem; /* 容器内边距（避免内容贴边） */
+    margin: 2rem auto; /* 容器上下边距，水平居中 */
+    max-width: 900px; /* 容器最大宽度（适配不同屏幕） */
+}
+
+/* 3. 调整导航栏样式（与背景协调） */
+.md-header {
+    background-color: #0fd40c; /* 浅粉色背景（符合奶龙的可爱风格） */
+    box-shadow: none; /* 去掉导航栏阴影（可选） */
+}
+
+/* 4. 调整导航栏标题（奶龙名称） */
+.md-header__title {
+    color: #dada0c; 
+    font-weight: bold; /* 字体加粗 */
+}
+
+/* 5. 调整 footer 样式（可选） */
+.md-footer {
+    background-color: #d9e71d; /* 与导航栏一致的浅粉色 */
+    color: #333; /* 文字颜色 */
+}
